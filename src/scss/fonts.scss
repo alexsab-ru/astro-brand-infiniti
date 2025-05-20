@@ -1,4 +1,5 @@
 @use "mixins";
 
-// @include mixins.font("Gilroy", normal, 300, "/fonts/gilroy-light.woff2");
-// @include mixins.font("Gilroy", normal, 800, "/fonts/gilroy-extrabold.woff2");
+@include mixins.font("InfinitiBrand", normal, 300, "https://cdn.alexsab.ru/b/infiniti/fonts/InfinitiBrandCY-Light.woff2");
+@include mixins.font("InfinitiBrand", normal, 400, "https://cdn.alexsab.ru/b/infiniti/fonts/InfinitiBrandCY-Regular.woff2");
+@include mixins.font("InfinitiBrand", normal, 700, "https://cdn.alexsab.ru/b/infiniti/fonts/InfinitiBrandCY-Bold.woff2");
